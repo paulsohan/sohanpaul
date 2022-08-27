@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sohan Paul - Portfolio Website</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!----Tab Icon-->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body onload="scrollFunctionBTT()">
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+
+        <a class="navbar-brand" href="index.html">Portfolio .</a>
+
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_me">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="projects.html">UI Case Studies</a>
+                <a class="dropdown-item" href="projects.html#e-fest">E-fest Projects</a>
+                <a class="dropdown-item" href="https://github.com/paulsohan" target="_blank">Software Projects</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="files/Resume - Sohan Paul.pdf" target="_blank">Resume</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">I am Sohan Paul & I am a T-Shaped Product Designer.</h1>
+          <button type="button" class="btn btn-solid-lg download-button">Hire Me</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/My-icon.png" alt="My-Cartoon">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <h2 class="section-heading" id="about_me">About Me</h2>
+    <p>I focus on a range of items and features that we use in life without giving them a second thought.</p>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Diversity in work.</h3>
+          <p>Passionate about designing and can provide diversity in work.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Quick Learner</h3>
+          <p>Very fast in adapting to the actual environment.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Hard Working</h3>
+          <p>Extremely driven to deliver quality work thoughout.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div class="cards-2 bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="h2-heading">Work Experience</h2>
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+          <!-- Card -->
+          <div class="col-sm-6">
+            <div class="card">
+              <img class="quotes" src="images/quotes.svg" alt="alternative">
+              <div class="card-body">
+                <img id="testimonial-logo" src="./images/grglogo.png">
+                <p class="testimonial-text">Sohan was a quick learner and very fast in adapting to the
+                  actual work environment. He showed a great level of understanding, commitment in his work
+                  & he was able to work within dynamic timelines with different stakeholders.</p>
+                <div class="testimonial-author">Ganesh Shinde</div>
+                <div class="occupation">Head Of Product Management, GRG India</div>
+              </div>
+              <div class="gradient-floor red-to-blue"></div>
+            </div>
+          </div>
+          <!-- end of card -->
+          <div class="col-sm-6">
+              <div class="card">
+                <img class="quotes" src="images/quotes.svg" alt="alternative">
+                <div class="card-body">
+                  <img id="testimonial-logo" src="./images/Qalara logo.png">
+                  <p class="testimonial-text">During his internship period, Sohan demonstrated strong
+                    communication skills, has a commendable work ethic with a self-motivated attitude to
+                    learn & acquire new skills and engaged actively in all our team discussions.
+                    </p>
+                  <div class="testimonial-author">Aditi Pany</div>
+                  <div class="occupation">Founder & CEO, Qalara</div>
+                </div>
+                <div class="gradient-floor red-to-blue"></div>
+              </div>
+            </div>  
+            <!-- Card -->
+            <div class="col-sm-6">
+              <div class="card">
+                <img class="quotes" src="images/quotes.svg" alt="alternative">
+                <div class="card-body">
+                  <img id="testimonial-logo" src="./images/Sightgrab-testimonial.jpg">
+                  <p class="testimonial-text">We found him more result oriented. His work on graphics has
+                    an aesthetic touch. He also motivates himself with the urge of upgrading his game day
+                    by day.
+                  </p>
+                  <div class="testimonial-author">Yashash Gaurav</div>
+                  <div class="occupation">Head of Design, Sightgrab</div>
+                </div>
+                <div class="gradient-floor red-to-blue"></div>
+              </div>
+            </div>    
+            <!-- end of card -->
+
+            <!-- Card -->
+            <div class="col-sm-6">
+              <div class="card">
+                <img class="quotes" src="images/quotes.svg" alt="alternative">
+                <div class="card-body">
+                  <img id="testimonial-logo" src="./images/IndianOil_Logo_Fulla.jpg">
+                  <p class="testimonial-text">Sohan worked on several units of the refinery namely DCU,
+                    SRU & CDU. He did thorough research on the maintenance & development of the units &
+                    reported diligently on daily basis.
+                  </p>
+                  <div class="testimonial-author">Sollamuthu Prabu</div>
+                  <div class="occupation">Senior Manager(L&D Center), IOCL Guwahati</div>
+                </div>
+                <div class="gradient-floor red-to-blue"></div>
+              </div>
+            </div>    
+            <!-- end of card -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of testimonials -->
+
+  </section>
+
+
+
+  <!-- skills -->
+
+  <section class="white-section" id="skills">
+
+    <h2 class="section-heading">Skills</h2>
+    <p>Over the period of time, I got to work on various technical & soft skills.</p>
+
+    <div class="row">
+
+      <div class="skills-column-1 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Technical Skills</h3>
+          </div>
+          <div class="card-body col-sm-12" id="stat">
+            <p>Adobe Xd</p>
+            <div class="container-box">
+              <div class="skills adobe">90%</div>
+            </div>
+            <p>Figma</p>
+            <div class="container-box">
+              <div class="skills figma">90%</div>
+            </div>
+            <p>Invisionapp</p>
+            <div class="container-box">
+              <div class="skills invisionapp">90%</div>
+            </div>
+            <p>HTML-CSS-Javascript</p>
+            <div class="container-box">
+              <div class="skills hcj">70%</div>
+            </div>
+            <p>Python</p>
+            <div class="container-box">
+              <div class="skills python">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-column-2 col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Personal Skills</h3>
+          </div>
+          <div class="card-body col-sm-12" id="stat">
+            <p>Leadership</p>
+            <div class="container-box">
+              <div class="skills Leadership">90%</div>
+            </div>
+            <p>Product Management</p>
+            <div class="container-box">
+              <div class="skills Leadership">90%</div>
+            </div>
+            <p>Research-Analysis</p>
+            <div class="container-box">
+              <div class="skills Leadership">90%</div>
+            </div>
+            <p>Detail-Oriented</p>
+            <div class="container-box">
+              <div class="skills Leadership">90%</div>
+            </div>
+            <p>Team Player</p>
+            <div class="container-box">
+              <div class="skills Leadership">90%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="subscription">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="subscription-wrapper">
+            <div
+              class="d-flex subscription-content justify-content-between align-items-center flex-column text-center text-md-left">
+              <h3 class="flex-fill">Let's Connect<br> Over Call .</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a id="footer-icon" href="https://www.facebook.com/paulsohan2" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+      <a id="footer-icon" href="https://www.linkedin.com/in/sohan-paul/" target="_blank"><i class="social-icon fab fa-linkedin"></i></a>
+      <a id="footer-icon" href="https://www.instagram.com/paul__sohan/" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+      <a id="footer-icon" href="https://www.behance.net/sohanpaul2" target="_blank"><i class="social-icon fab fa-behance"></i></a>
+      <a id="footer-icon" href="https://dribbble.com/paul_sohan" target="_blank"><i class="social-icon fab fa-dribbble"></i></a>
+      <p>© Copyright paulsohan</p>
+    </div>
+  </footer>
+  <!-- Back To Top Button -->
+  <button onclick="topFunction()" id="myBtn">
+    <img src="images/up-arrow.png" alt="alternative">
+  </button>
+  <!-- end of back to top button -->
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

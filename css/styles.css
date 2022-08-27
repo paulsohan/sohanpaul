@@ -1,0 +1,476 @@
+body {
+  font-family: "Poppins";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins';
+  color: #223150;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Poppins';
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-top: 10%;
+}
+
+#about_me {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-top: 2.5rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.btn-solid-lg{
+  display: inline-block;
+  padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+  border: 1px solid #0092ff;
+  border-radius: 30px;
+  background-color: #0092ff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: 'Poppins';
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	background-color: transparent;
+	color: #0092ff;
+	text-decoration: none;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 2% 15% 5%;
+}
+
+/* Sections */
+
+.colored-section {
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #223150;
+}
+
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border: none;
+}
+
+
+.dropdown-menu .dropdown-item{
+  font-family: "Poppins";
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #0092ff;
+  color: #ffffff;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #445373;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #223150;
+}
+
+.nav-link:hover{
+  color: #5057d1;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background: url(../images/header-background.jpg) center center no-repeat;
+	background-size: cover;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  position: relative;
+  left: 35%;
+  right: 30%;
+  padding-bottom: 20px;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #0092ff;
+  margin-bottom: 1rem;
+}
+
+/* Testimonial Section */
+
+
+#testimonial-logo{
+  vertical-align: middle;
+  border-style: none;
+  width: 60%;
+}
+
+#testimonial-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.cards-2 {
+	padding-top: 0.5rem;
+	padding-bottom: 2.25rem;
+	text-align: center;
+}
+
+.cards-2 .h2-heading {
+	margin-bottom: 3.75rem;
+}
+
+.cards-2 .card {
+	position: relative;
+	margin-bottom: 5rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px -1px rgba(0, 0, 0, 0.1);
+}
+
+.cards-2 .card .quotes {
+	position: absolute;
+	top: -15px;
+	right: 0;
+	left: 0;
+	width: 48px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cards-2 .card-body {
+	padding: 3.5rem 2rem 3.125rem 2rem;
+}
+
+.cards-2 .testimonial-author {
+	margin-bottom: 0.125rem;
+	color: #223150;
+}
+
+.cards-2 .occupation {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+  color: #191919;
+}
+
+.cards-2 .card .gradient-floor {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 10px;
+	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
+.cards-2 .card .gradient-floor.red-to-blue {
+	background: linear-gradient(to right, #ef3d91, #0092ff);
+}
+
+.cards-2 .card .gradient-floor.blue-to-purple {
+	background: linear-gradient(to right, #0092ff, #637eff);
+}
+
+.cards-2 .card .gradient-floor.purple-to-green {
+	background: linear-gradient(to right, #637eff, #16c66d);
+}
+
+/* skills Section */
+
+#skills {
+  padding: 0 100px 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-body{
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.card-body p{
+  text-align: justify;
+  margin: 20px 0 10px;
+}
+
+.card-body .testimonial-text{
+  font-family: 'Ubuntu';
+  line-height: 6vh;
+}
+
+.card-body .testimonial-author{
+  padding-top: 5%;
+  font-weight: 900;
+}
+
+.skills-column-1 {
+  padding: 3% 1% 3% 9%;
+}
+
+.skills-column-2 {
+  padding: 3% 9% 3% 1%;
+}
+
+.container-box {
+  width: 100%;
+  background-color: rgb(174, 167, 167);
+}
+
+.skills{
+    text-align: right;
+    color: white;
+    padding-right: 20px;
+}
+
+#lead{
+  text-align: right;
+}
+
+.Leadership {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+
+.adobe{
+  width: 90%;
+  background-color: #da4c4c;
+}
+
+.figma{
+  width: 90%;
+  background-color: #da4c4c;
+}
+
+.hcj{
+  width: 70%;
+  background-color: #da4c4c;
+}
+
+.invisionapp{
+  width: 90%;
+  background-color: #da4c4c;
+}
+
+.python{
+  width: 70%;
+  background-color: #da4c4c;
+}
+
+
+.technical{
+  width: 90%;
+  background-color: #da4c4c;
+}
+
+/* CTA Section */
+
+.flex-fill{
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#subscribe {
+  font-size: 20px;
+}
+
+.subscription-wrapper{
+  background: url(../images/subscription-background.jpg) center center no-repeat;
+  padding: 10%;
+  border-radius: 28px;
+  background-size: cover;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+  line-height: 20px;
+}
+
+#footer-icon {
+  color: #191919;
+}
+
+#footer-icon:hover{
+  color: #4e55cf;
+}
+
+
+
+/*fixed button*/
+
+#myBtn img {
+	margin-bottom: 0.25rem;
+	width: 18px;
+}
+
+
+#myBtn {
+  display: none;
+	position: fixed; 
+  z-index: 99; 
+	bottom: 20px; 
+	right: 20px; 
+	width: 52px;
+	height: 52px;
+	border: none; 
+	border-radius: 50%; 
+	outline: none; 
+	background-color: #44434a; 
+	cursor: pointer;
+}
+
+#myBtn:hover {
+	background-color: #1d1d21;
+  transition: all 3s ease-in-out;
+}
+
+
+/*-----end of fixed button----*/
+
+
+
+
+@media (max-width: 1028px) {
+
+
+  p{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .nav-item{
+    padding: 15px;
+    margin-bottom: 5px;
+    
+  }
+
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 85%;
+  }
+
+  .btn-solid-lg{
+    margin: 16% 3% 5% 3%;
+  }
+
+  .cards-2 {
+    padding-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .container-fluid{
+    padding:2% 1% 7% 1%;
+  }
+  .card-project{
+    padding: 0;
+  }
+
+  #skills {
+    padding-top: 70px;
+  }
+
+  .skills-column-1 {
+    padding: 2% 0% 5%;
+  }
+  .skills-column-2 {
+    padding: 2% 0% 5%;
+  }
+
+}
